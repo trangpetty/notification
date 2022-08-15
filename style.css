@@ -1,0 +1,38 @@
+
+.btn-choose {
+    float: right;
+    margin: 0 5px;
+}
+
+span {
+    font-size: 20px;
+}
+
+.container {
+    width: 70%;
+}
+
+.btn-footer {
+    width: 100%;
+}
+
+.modal-header{
+    background-color: rgba(0, 0, 0, 0.03);
+    height: 60px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    text-align: center;
+    margin: 8px 8px 0 ;
+}
+
+.modal-body {
+    background-color: rgba(0, 0, 0, 0.03);
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    margin: 16px 8px;
+    padding: 8px 16px;
+}
+
+.text-header {
+    line-height: 60px;
+}

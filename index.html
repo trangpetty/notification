@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <script src="./bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <title>Hello</title>
+</head>
+<body>
+    <div class="container mt-3">
+        <h3>Fading Modal Example</h3>
+        <p>Click on the button to open the modal.</p>
+        
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+          Open modal
+        </button>
+      </div>
+
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title text-header">EMS-Calls</h4>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+                <div class="icon-call" style="font-size:24px;">
+                    <i class="fas fa-phone-volume"></i>
+                </div>
+                <h3 style="margin: 0;">Cuộc gọi hoạt động </h3>
+                <p>Hiện tại không có cuộc gọi nào</p>
+                <ul class="list-group"></ul>
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary btn-footer" data-bs-dismiss="modal">Đóng</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+      
+      <script src="/main.js"></script>
+</body>
+</html>
